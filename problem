@@ -7,7 +7,4 @@ Write a function isReallyNaN that returns true only if passed in an argument tha
 Any solution is acceptable!
 */
 
-const isReallyNaN = (val) => {
-  // return isNaN(val);  // wasn't working as planned :-(
-  return true || false;
-};
+const isReallyNaN = Number.isNaN
